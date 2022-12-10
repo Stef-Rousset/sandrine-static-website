@@ -1,0 +1,38 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 18vh;
+}
+.header-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 3em;
+  color: #0F3057;
+}
+.header-name {
+  font-size: 1.75em;
+  font-weight: 600;
+}
+.header-art {
+  font-size: 1.25em;
+  font-weight: 500;
+  opacity: 0.95;
+  margin-block-start: 0;
+  width: auto;
+}
+.header-photo {
+  margin-right: 3em;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.header-photo > img {
+  width: 6em;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  border: white 1px solid;
+  height: 85%;
+}
