@@ -4,8 +4,7 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 100px;
-  height: 50vh;
+  margin-top: 5em;
 }
 .intro {
   width: 100%;
@@ -13,6 +12,7 @@ section {
 .intro > p {
   text-align: justify;
   font-size: 1.25em;
+  color: #4C4D4A;
 }
 /* p {
   font-size: 18px;
@@ -21,7 +21,75 @@ section {
   align-items: center;
   width: 20%;
 } */
-i {
-  font-size: 20px;
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 3em 0;
 }
-
+.main-title {
+  font-weight: bold;
+  color: #91B9C5;
+  font-size: 1.75em;
+}
+.sculptures {
+  margin-top: 3em;
+}
+.paragraph {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 20vh;
+  margin-top: 2em;
+}
+.paragraph-text {
+  width: 40%;
+}
+.paragraph-text > p {
+  color: #4C4D4A;
+  text-align: justify;
+  margin-block-start: 0;
+  font-size: 1.20em;
+}
+.odd {
+  padding-right: 1em;
+}
+.even {
+  padding-left: 1em;
+}
+.paragraph-image {
+  display: flex;
+  align-items: start;
+  width: 60%;
+  height: auto;
+  background-color: blue;
+  background-size: cover;
+  background-position: center;
+}
+.paragraph-image > p {
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.5em;
+  margin-block-start: 0.25em;
+}
+.one {
+  background-image: url("../../images/balade_poetique.jpg");
+  justify-content: flex-end;
+}
+.two {
+  background-image: url("../../images/arbres_histoire.jpg");
+  justify-content: flex-start;
+}
+.three {
+  background-image: url("../../images/interieurs_chimeriques.jpg");
+  justify-content: flex-end;
+}
+.four {
+  background-image: url("../../images/paysages_vagabondages.jpg");
+  justify-content: flex-start;
+}
+.five {
+  background-image: url("../../images/sculpture.jpg");
+  justify-content: flex-end;
+}
