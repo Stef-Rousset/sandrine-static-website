@@ -107,3 +107,66 @@ aside > p {
   color: #91B9C5;
   padding-top: 0.1em;
 }
+/* responsive with bootstrap breakpoints */
+/* xs devices (portrait phones less than 576 px) */
+@media (max-width: 575.98px) {
+  .paragraph {
+    flex-direction: column;
+  }
+  .paragraph-text {
+      display: none;
+  }
+  .paragraph-image {
+    width: 100%;
+    height: 20vh;
+    align-items: center;
+  }
+  .one, .two, .three, .four, .five {
+    justify-content: center;
+  }
+  .odd, .even {
+    padding: 0em;
+  }
+  aside > p {
+    text-align: justify;
+  }
+  .footer-icons {
+    width: 20%;
+  }
+  .footer-contact > p {
+    display: none;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  section, aside {
+    width: 95vw;
+  }
+  .paragraph {
+    height: 25vh;
+  }
+  .paragraph-image, .paragraph-text {
+    width: 50%;
+  }
+  .paragraph-text > p {
+    font-size: 1em;
+  }
+  footer {
+    height: 15vh;
+  }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  section, aside {
+    width: 90vw;
+  }
+}
+/* Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}*/
+/* X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+} */
+/* XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+} */
