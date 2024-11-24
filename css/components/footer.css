@@ -10,9 +10,6 @@ footer {
   width: 100%;
   height: 100%;
 }
-i {
-  font-size: 1.5em;
-}
 .footer-icons {
   display: flex;
   justify-content: space-around;
@@ -20,6 +17,7 @@ i {
 }
 .footer-icons > a {
   color: white;
+  font-size: 2.5rem;
 }
 .footer-contact {
   display: flex;
@@ -31,9 +29,9 @@ i {
 .footer-contact > p {
   margin-block-start: 0;
   margin-block-end: 0.5em;
-  font-size: 1.15em;
+  font-size: 1.5rem;
 }
 .footer-contact > a {
   color: white;
-  font-size: 1.15em;
+  font-size: 1.5rem;
 }

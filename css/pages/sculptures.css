@@ -1,0 +1,57 @@
+.sculptures {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+.sculptures-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sculptures-header__title {
+  font-weight: bold;
+  color: #91B9C5;
+  font-size: 2.25rem;
+
+}
+
+.sculptures-header__link {
+  font-size: 1.75rem;
+  font-style: italic;
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.sculptures-grid {
+  display: grid;
+  width: 100%;
+  margin: auto;
+  grid-gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.sculptures-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sculptures-card__title {
+  text-align: center;
+}
+
+.sculptures-card__img {
+  width: 100%;
+  height: 100%;
+}
+
+.sculptures-card__paragraph {
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+}
