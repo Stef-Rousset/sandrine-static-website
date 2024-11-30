@@ -1,5 +1,9 @@
+.banner > .title {
+  font-size: 3rem;
+}
+
 section {
-  width: 80vw;
+  width: 70vw;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -11,8 +15,10 @@ section {
 }
 .intro > p {
   text-align: justify;
-  font-size: 1.25em;
   color: #4C4D4A;
+}
+.intro__first-p {
+  margin-bottom: 1rem;
 }
 /* p {
   font-size: 18px;
@@ -28,50 +34,43 @@ section {
   margin: 3em 0;
 }
 .main-title-paintings, .main-title-sculptures, .main-title-contact {
+  margin-top: 4rem;
   font-weight: bold;
   color: #91B9C5;
-  font-size: 1.75rem;
+  font-size: 2rem;
 }
 .main-title-sculptures {
-  margin-top: 3rem;
+  margin-top: 6rem;
 }
 .paragraph {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
-  height: 20vh;
-  margin-top: 2rem;
+  height: 25vh;
+  margin-top: 3rem;
 }
-.paragraph-text {
-  width: 40%;
-}
-.paragraph-text > p {
+.paragraph > h3 {
   color: #4C4D4A;
   text-align: justify;
   margin-block-start: 0;
-  font-size: 1.2rem;
+  font-size: 2.5rem;
+  font-style: italic;
 }
 .odd {
-  padding-right: 1rem;
+  padding-left: 1rem;
 }
 .even {
-  padding-left: 1rem;
+  padding-right: 1rem;
 }
 .paragraph-image {
   display: flex;
   align-items: start;
   width: 60%;
-  height: auto;
+  height: 100%;
   background-color: blue;
   background-size: cover;
   background-position: center;
-}
-.paragraph-image > p {
-  color: white;
-  font-weight: bold;
-  font-style: italic;
-  font-size: 1.5rem;
-  margin-block-start: 0.25rem;
 }
 .one {
   background-image: url("../../images/balade_poetique.jpg");
@@ -94,13 +93,12 @@ section {
   justify-content: flex-end;
 }
 aside {
-  width: 80vw;
+  width: 70vw;
   margin: auto;
   margin-top: 4rem;
   margin-bottom: 3rem;
 }
 aside > p {
-  font-size: 1.2rem;
   color: #4C4D4A;
 }
 .fa-regular {
