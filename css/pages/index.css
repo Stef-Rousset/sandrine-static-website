@@ -41,6 +41,7 @@ section {
 }
 .main-title-sculptures {
   margin-top: 6rem;
+  align-self: end;
 }
 .paragraph {
   display: flex;
@@ -81,14 +82,10 @@ section {
   justify-content: flex-start;
 }
 .three {
-  background-image: url("../../images/interieurs_chimeriques.jpg");
-  justify-content: flex-end;
-}
-.four {
   background-image: url("../../images/paysages_vagabondages.jpg");
   justify-content: flex-start;
 }
-.five {
+.four {
   background-image: url("../../images/sculpture.jpg");
   justify-content: flex-end;
 }
