@@ -1,32 +1,15 @@
 .sculptures {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 85%;
   margin: auto;
   margin-bottom: 2rem;
 }
-
-.sculptures-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.sculptures-header__title {
+.sculptures-title {
   font-weight: bold;
   color: #91B9C5;
   font-size: 2.25rem;
-
 }
-
-.sculptures-header__link {
-  font-size: 1.75rem;
-  font-style: italic;
-  color: black;
-  font-weight: 600;
-  cursor: pointer;
-}
-
 .sculptures-grid {
   display: grid;
   width: 100%;
@@ -34,24 +17,35 @@
   grid-gap: 30px;
   grid-template-columns: repeat(3, 1fr);
 }
-
 .sculptures-card {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.sculptures-card__title {
-  text-align: center;
-}
-
-.sculptures-card__img {
   width: 100%;
   height: 100%;
 }
-
+.sculptures-card__title {
+  text-align: center;
+  color: #0F3057;
+}
+.sculptures-card__img {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: transform 200ms ease-in-out;
+  -ms-transition: transform 200ms ease-in-out;
+  -moz-transition: transform 200ms ease-in-out;
+  transition: all 200ms ease-in-out
+}
+.sculptures-card__img:hover {
+  box-shadow: 0px 0px 50px #000000;
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  transform: scale(1.5);
+}
 .sculptures-card__paragraph {
   font-weight: 600;
   text-align: center;
   margin: 0;
+  color: #0F3057;
 }

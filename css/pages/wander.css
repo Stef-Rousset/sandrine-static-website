@@ -1,27 +1,37 @@
-.paintings {
-  display: flex;
-  flex-direction: column;
-  width: 80%;
+nav {
+  width: 70vw;
   margin: auto;
-  margin-bottom: 2rem;
+  padding: 1rem 0;
 }
-.paintings-header {
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 85%;
+  margin: auto;
 }
-.paintings-header__title {
+.navbar > a {
+  font-style: italic;
+  font-size: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: #91B9C5;
+}
+.navbar > a:hover {
+  color: #0F3057;
+}
+.paintings {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+.paintings-title {
   font-weight: bold;
   color: #91B9C5;
   font-size: 2.25rem;
-
-}
-.paintings-header__link {
-  font-size: 1.75rem;
-  font-style: italic;
-  color: black;
-  font-weight: 600;
-  cursor: pointer;
 }
 .paintings-grid {
   display: grid;
@@ -39,6 +49,7 @@
 }
 .painting-card__title {
   text-align: center;
+  color: #0F3057;
 }
 .painting-card__img {
   width: 100%;
@@ -46,7 +57,7 @@
   -webkit-transition: transform 200ms ease-in-out;
   -ms-transition: transform 200ms ease-in-out;
   -moz-transition: transform 200ms ease-in-out;
-  transition: transform 200ms ease-in-out;
+  transition: all 200ms ease-in-out
 }
 .painting-card__img:hover {
   box-shadow: 0px 0px 50px #000000;
@@ -59,4 +70,25 @@
   font-weight: 600;
   text-align: center;
   margin: 0;
+  color: #0F3057;
+}
+.painting-card__img_test {
+  width: 100%;
+  height: 100%;
+  background-color: #91B9C5;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-transition: transform 200ms ease-in-out;
+  -ms-transition: transform 200ms ease-in-out;
+  -moz-transition: transform 200ms ease-in-out;
+  transition: all 200ms ease-in-out
+}
+
+.painting-card__img_test:hover {
+  box-shadow: 0px 0px 50px #000000;
+  -webkit-transform: scale(2);
+  -ms-transform: scale(2);
+  -moz-transform: scale(2);
+  transform: scale(2);
 }
