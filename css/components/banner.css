@@ -22,11 +22,9 @@
 /* responsive with bootstrap breakpoints */
 /* xs devices (portrait phones less than 576 px) */
 @media (max-width: 575.98px) {
-  .banner {
-    align-items: center;
-  }
   .title {
     font-size: 1.75em;
+    margin: auto;
   }
 }
 /* Small devices (landscape phones, 576px and up) */

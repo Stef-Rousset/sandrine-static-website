@@ -35,3 +35,27 @@ footer {
   color: white;
   font-size: 1.5rem;
 }
+/* responsive with bootstrap breakpoints */
+/* xs devices (portrait phones less than 576 px) */
+@media (max-width: 575.98px) {
+  .footer-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  footer {
+      height: 30vh;
+    }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) and (orientation: landscape) {
+  footer {
+    height: 30vh;
+  }
+}
+
