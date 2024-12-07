@@ -1,9 +1,30 @@
 .banner > .title {
   font-size: 3rem;
 }
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 3em 0;
+}
 
+.main-title-paintings,
+.main-title-sculptures,
+.main-title-contact,
+.main-title-journey {
+  align-self: self-start;
+  margin-top: 4rem;
+  font-weight: bold;
+  color: #91B9C5;
+  font-size: 2rem;
+}
+
+.main-title-sculptures {
+  margin-top: 6rem;
+  align-self: end;
+}
 section {
-  width: 70vw;
+  width: 75vw;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -27,22 +48,6 @@ section {
   align-items: center;
   width: 20%;
 } */
-.main {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  margin: 3em 0;
-}
-.main-title-paintings, .main-title-sculptures, .main-title-contact {
-  margin-top: 4rem;
-  font-weight: bold;
-  color: #91B9C5;
-  font-size: 2rem;
-}
-.main-title-sculptures {
-  margin-top: 6rem;
-  align-self: end;
-}
 .paragraph {
   display: flex;
   justify-content: space-between;
@@ -74,7 +79,7 @@ section {
   background-position: center;
 }
 .one {
-  background-image: url("../../images/balade_poetique.jpg");
+  background-image: url("../../images/balade_bandeau.jpg");
   justify-content: flex-end;
 }
 .two {
@@ -82,11 +87,11 @@ section {
   justify-content: flex-start;
 }
 .three {
-  background-image: url("../../images/paysages_vagabondages.jpg");
+  background-image: url("../../images/paysages_bandeau.jpg");
   justify-content: flex-start;
 }
 .four {
-  background-image: url("../../images/sculpture.jpg");
+  background-image: url("../../images/sculpture_bandeau.jpg");
   justify-content: flex-end;
 }
 aside {

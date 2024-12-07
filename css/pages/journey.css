@@ -1,0 +1,11 @@
+.main-title-expos {
+  margin-top: 4rem;
+  font-weight: bold;
+  color: #91B9C5;
+  font-size: 2rem;
+}
+
+.journey-list > li {
+  font-size: 1.5rem;
+  color: #4C4D4A;
+}
