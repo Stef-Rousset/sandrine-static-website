@@ -42,6 +42,22 @@
   -moz-transition: transform 200ms ease-in-out;
   transition: all 200ms ease-in-out
 }
+.painting-card__img:hover {
+  box-shadow: 0px 0px 50px #000000;
+  object-fit: contain;
+  background-color: #91B9C5;
+  -webkit-transform: scale(2.5);
+  -ms-transform: scale(2.5);
+  -moz-transform: scale(2.5);
+  transform: scale(2.5);
+}
+.painting-card__paragraph{
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+  color: #0F3057;
+}
+/*
 .painting-card__img_bis {
   width: 100%;
   height: 100%;
@@ -50,21 +66,6 @@
   -ms-transition: transform 200ms ease-in-out;
   -moz-transition: transform 200ms ease-in-out;
   transition: all 200ms ease-in-out
-}
-.painting-card__img:hover, .painting-card__img_bis:hover {
-  box-shadow: 0px 0px 50px #000000;
-  object-fit: contain;
-  background-color: #91B9C5;
-  -webkit-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  -moz-transform: scale(1.5);
-  transform: scale(1.5);
-}
-.painting-card__paragraph{
-  font-weight: 600;
-  text-align: center;
-  margin: 0;
-  color: #0F3057;
 }
 .painting-card__img_test {
   width: 100%;
@@ -78,7 +79,6 @@
   -moz-transition: transform 200ms ease-in-out;
   transition: all 200ms ease-in-out
 }
-
 .painting-card__img_test:hover {
   box-shadow: 0px 0px 50px #000000;
   -webkit-transform: scale(2);
@@ -86,3 +86,4 @@
   -moz-transform: scale(2);
   transform: scale(2);
 }
+*/
