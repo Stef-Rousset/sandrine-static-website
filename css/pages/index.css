@@ -103,6 +103,9 @@ aside {
 aside > p {
   color: #4C4D4A;
 }
+.contact-journey-link {
+  font-weight: bold;
+}
 .fa-regular {
   color: #91B9C5;
   padding-top: 0.1rem;
