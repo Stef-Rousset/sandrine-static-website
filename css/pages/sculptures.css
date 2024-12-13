@@ -38,14 +38,50 @@
 }
 .sculptures-card__img:hover {
   box-shadow: 0px 0px 50px #000000;
-  -webkit-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  -moz-transform: scale(1.5);
-  transform: scale(1.5);
+  -webkit-transform: scale(2.5);
+  -ms-transform: scale(2.5);
+  -moz-transform: scale(2.5);
+  transform: scale(2.5);
 }
 .sculptures-card__paragraph {
   font-weight: 600;
   text-align: center;
   margin: 0;
   color: #0F3057;
+}
+/* responsive with bootstrap breakpoints */
+/* xs devices (portrait phones less than 576 px) */
+@media (max-width: 575.98px) {
+  .sculptures-grid {
+    flex-direction: column;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .sculptures-card__img:hover {
+    box-shadow: 0 0 0 #FFFF;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1);
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .sculptures-grid {
+    flex-direction: column;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .sculptures-grid {
+    flex-direction: column;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .sculptures-card__img:hover {
+    box-shadow: 0;
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    transform: scale(1.5);
+  }
 }

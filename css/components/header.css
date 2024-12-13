@@ -28,13 +28,15 @@ header {
   height: 100%;
   display: flex;
   align-items: center;
+  position: relative;
+  top: 20px;
 }
 .header-photo > img {
-  width: 6em;
+  width: 110%;
   border-radius: 50%;
   box-shadow: 0 1px 2px rgba(0,0,0,0.2);
   border: white 1px solid;
-  height: 85%;
+  height: 110%;
 }
 /* responsive with bootstrap breakpoints */
 /* xs devices (portrait phones less than 576 px) */
@@ -57,24 +59,14 @@ header {
   .header-name {
     font-size: 1.5em;
   }
-  .header-photo > img {
-    width: 5em;
-  }
 }
 @media (min-width: 768px) and (max-width: 991.98px) and (orientation: landscape) {
   header {
     height: 30vh;
   }
-  .header-photo>img {
-    width: 6.5em;
-    height: 80%;
-  }
-}
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) {
   .header-photo > img {
-      width: 6.5em;
-      height: 80%;
+    width: 90%;
+    height: 90%;
   }
 }
 
