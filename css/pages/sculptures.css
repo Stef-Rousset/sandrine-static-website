@@ -38,10 +38,10 @@
 }
 .sculptures-card__img:hover {
   box-shadow: 0px 0px 50px #000000;
-  -webkit-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  -moz-transform: scale(1.5);
-  transform: scale(1.5);
+  -webkit-transform: scale(1.75);
+  -ms-transform: scale(1.75);
+  -moz-transform: scale(1.75);
+  transform: scale(1.75);
 }
 .sculptures-card__paragraph {
   font-weight: 600;
