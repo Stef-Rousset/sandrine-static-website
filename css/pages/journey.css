@@ -4,8 +4,9 @@
   color: #91B9C5;
   font-size: 2rem;
 }
-.journey-section {
+.journey-section > p {
   text-align: justify;
+  margin-bottom: 0.75rem;
 }
 .journey-list > li {
   font-size: 1.5rem;
